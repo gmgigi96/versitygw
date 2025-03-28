@@ -24,7 +24,7 @@ DOCKERCOMPOSE=$(DCCMD) -f tests/docker-compose.yml --env-file .env.dev --project
 
 BIN=versitygw
 
-VERSION := $(shell if test -e VERSION; then cat VERSION; else git describe --abbrev=0 --tags HEAD; fi)
+VERSION := $(shell if test -e VERSION; then cat VERSION; else git describe --abbrev=0 --tags HEAD 2> /dev/null true; fi)
 BUILD := $(shell git rev-parse --short HEAD || echo release-rpm)
 TIME := `date -u '+%Y-%m-%d_%I:%M:%S%p'`
 
