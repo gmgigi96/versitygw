@@ -30,7 +30,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/versity/versitygw/s3err"
+	"github.com/gmgigi96/versitygw/s3err"
 )
 
 // chunked uploads described in:

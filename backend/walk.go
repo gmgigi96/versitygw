@@ -24,7 +24,7 @@ import (
 	"syscall"
 
 	"github.com/aws/aws-sdk-go-v2/service/s3/types"
-	"github.com/versity/versitygw/s3response"
+	"github.com/gmgigi96/versitygw/s3response"
 )
 
 type WalkResults struct {

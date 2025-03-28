@@ -16,7 +16,7 @@
 
 test_put_bucket_acl_s3cmd() {
   if [ "$DIRECT" != "true" ]; then
-    skip "https://github.com/versity/versitygw/issues/963"
+    skip "https://github.com/gmgigi96/versitygw/issues/963"
   fi
 
   run setup_bucket "s3cmd" "$BUCKET_ONE_NAME"

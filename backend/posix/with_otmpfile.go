@@ -27,9 +27,9 @@ import (
 	"strconv"
 	"syscall"
 
-	"github.com/versity/versitygw/auth"
-	"github.com/versity/versitygw/backend"
-	"github.com/versity/versitygw/s3err"
+	"github.com/gmgigi96/versitygw/auth"
+	"github.com/gmgigi96/versitygw/backend"
+	"github.com/gmgigi96/versitygw/s3err"
 	"golang.org/x/sys/unix"
 )
 

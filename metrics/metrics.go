@@ -24,7 +24,7 @@ import (
 	"sync"
 
 	"github.com/gofiber/fiber/v2"
-	"github.com/versity/versitygw/s3err"
+	"github.com/gmgigi96/versitygw/s3err"
 )
 
 var (

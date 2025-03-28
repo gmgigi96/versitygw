@@ -21,9 +21,9 @@ import (
 
 	"github.com/aws/aws-sdk-go-v2/service/s3"
 	"github.com/aws/aws-sdk-go-v2/service/s3/types"
-	"github.com/versity/versitygw/s3err"
-	"github.com/versity/versitygw/s3response"
-	"github.com/versity/versitygw/s3select"
+	"github.com/gmgigi96/versitygw/s3err"
+	"github.com/gmgigi96/versitygw/s3response"
+	"github.com/gmgigi96/versitygw/s3select"
 )
 
 //go:generate moq -out ../s3api/controllers/backend_moq_test.go -pkg controllers . Backend

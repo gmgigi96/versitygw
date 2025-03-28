@@ -20,9 +20,9 @@ import (
 	"testing"
 
 	"github.com/gofiber/fiber/v2"
-	"github.com/versity/versitygw/auth"
-	"github.com/versity/versitygw/backend"
-	"github.com/versity/versitygw/s3api/middlewares"
+	"github.com/gmgigi96/versitygw/auth"
+	"github.com/gmgigi96/versitygw/backend"
+	"github.com/gmgigi96/versitygw/s3api/middlewares"
 )
 
 func TestNew(t *testing.T) {

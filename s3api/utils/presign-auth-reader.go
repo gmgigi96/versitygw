@@ -29,7 +29,7 @@ import (
 	v4 "github.com/aws/aws-sdk-go-v2/aws/signer/v4"
 	"github.com/aws/smithy-go/logging"
 	"github.com/gofiber/fiber/v2"
-	"github.com/versity/versitygw/s3err"
+	"github.com/gmgigi96/versitygw/s3err"
 )
 
 const (

@@ -27,13 +27,13 @@ import (
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/urfave/cli/v2"
-	"github.com/versity/versitygw/auth"
-	"github.com/versity/versitygw/backend"
-	"github.com/versity/versitygw/metrics"
-	"github.com/versity/versitygw/s3api"
-	"github.com/versity/versitygw/s3api/middlewares"
-	"github.com/versity/versitygw/s3event"
-	"github.com/versity/versitygw/s3log"
+	"github.com/gmgigi96/versitygw/auth"
+	"github.com/gmgigi96/versitygw/backend"
+	"github.com/gmgigi96/versitygw/metrics"
+	"github.com/gmgigi96/versitygw/s3api"
+	"github.com/gmgigi96/versitygw/s3api/middlewares"
+	"github.com/gmgigi96/versitygw/s3event"
+	"github.com/gmgigi96/versitygw/s3log"
 )
 
 var (
@@ -122,7 +122,7 @@ func initApp() *cli.App {
 		Description: `The Versity S3 Gateway is an S3 protocol translator that allows an S3 client
 to access the supported backend storage as if it was a native S3 service.
 VersityGW is an open-source project licensed under the Apache 2.0 License. The
-source code is hosted on GitHub at https://github.com/versity/versitygw, and
+source code is hosted on GitHub at https://github.com/gmgigi96/versitygw, and
 documentation can be found in the GitHub wiki.`,
 		Copyright: "Copyright (c) 2023-2024 Versity Software",
 		Action: func(ctx *cli.Context) error {

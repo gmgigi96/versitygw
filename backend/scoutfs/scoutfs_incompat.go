@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/versity/versitygw/auth"
+	"github.com/gmgigi96/versitygw/auth"
 )
 
 func New(rootdir string, opts ScoutfsOpts) (*ScoutFS, error) {

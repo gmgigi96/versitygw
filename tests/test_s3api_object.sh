@@ -237,8 +237,8 @@ export RUN_USERS=true
 }
 
 #@test "objects containing data can't be copied to directory objects" {
-#  # TODO finish test after https://github.com/versity/versitygw/issues/1021
-#  skip "https://github.com/versity/versitygw/issues/1021"
+#  # TODO finish test after https://github.com/gmgigi96/versitygw/issues/1021
+#  skip "https://github.com/gmgigi96/versitygw/issues/1021"
 #  test_file="a"
 #
 #  run create_test_file "$test_file" 0

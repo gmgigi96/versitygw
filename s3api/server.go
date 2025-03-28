@@ -20,12 +20,12 @@ import (
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/logger"
-	"github.com/versity/versitygw/auth"
-	"github.com/versity/versitygw/backend"
-	"github.com/versity/versitygw/metrics"
-	"github.com/versity/versitygw/s3api/middlewares"
-	"github.com/versity/versitygw/s3event"
-	"github.com/versity/versitygw/s3log"
+	"github.com/gmgigi96/versitygw/auth"
+	"github.com/gmgigi96/versitygw/backend"
+	"github.com/gmgigi96/versitygw/metrics"
+	"github.com/gmgigi96/versitygw/s3api/middlewares"
+	"github.com/gmgigi96/versitygw/s3event"
+	"github.com/gmgigi96/versitygw/s3log"
 )
 
 type S3ApiServer struct {

@@ -1,15 +1,15 @@
 # The Versity S3 Gateway:<br/>A High-Performance S3 Translation Service
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/versity/versitygw/blob/assets/assets/logo-white.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/versity/versitygw/blob/assets/assets/logo.svg">
-  <a href="https://www.versity.com"><img alt="Versity Software logo image." src="https://github.com/versity/versitygw/blob/assets/assets/logo.svg"></a>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/gmgigi96/versitygw/blob/assets/assets/logo-white.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/gmgigi96/versitygw/blob/assets/assets/logo.svg">
+  <a href="https://www.versity.com"><img alt="Versity Software logo image." src="https://github.com/gmgigi96/versitygw/blob/assets/assets/logo.svg"></a>
 </picture>
 
- [![Apache V2 License](https://img.shields.io/badge/license-Apache%20V2-blue.svg)](https://github.com/versity/versitygw/blob/main/LICENSE) [![Go Report Card](https://goreportcard.com/badge/github.com/versity/versitygw)](https://goreportcard.com/report/github.com/versity/versitygw) [![Go Reference](https://pkg.go.dev/badge/github.com/versity/versitygw.svg)](https://pkg.go.dev/github.com/versity/versitygw)
+ [![Apache V2 License](https://img.shields.io/badge/license-Apache%20V2-blue.svg)](https://github.com/gmgigi96/versitygw/blob/main/LICENSE) [![Go Report Card](https://goreportcard.com/badge/github.com/gmgigi96/versitygw)](https://goreportcard.com/report/github.com/gmgigi96/versitygw) [![Go Reference](https://pkg.go.dev/badge/github.com/gmgigi96/versitygw.svg)](https://pkg.go.dev/github.com/gmgigi96/versitygw)
 
 ### Binary release builds
-Download [latest release](https://github.com/versity/versitygw/releases)
+Download [latest release](https://github.com/gmgigi96/versitygw/releases)
  | Linux/amd64 | Linux/arm64 | MacOS/amd64 | MacOS/arm64 | BSD/amd64 | BSD/arm64 |
  |:-----------:|:-----------:|:-----------:|:-----------:|:---------:|:---------:|
  |    ✔️    |  ✔️  |   ✔️   |  ✔️   |  ✔️   |  ✔️   |
@@ -22,16 +22,16 @@ Download [latest release](https://github.com/versity/versitygw/releases)
 * Simplified interface for adding new storage system support
 
 ### News
-Check out latest wiki articles: [https://github.com/versity/versitygw/wiki/Articles](https://github.com/versity/versitygw/wiki/Articles)
+Check out latest wiki articles: [https://github.com/gmgigi96/versitygw/wiki/Articles](https://github.com/gmgigi96/versitygw/wiki/Articles)
 
 ### Mailing List
 Keep up to date with latest gateway announcements by signing up to the [versitygw mailing list](https://www.versity.com/products/versitygw#signup).
 
 ### Documentation
-See project [documentation](https://github.com/versity/versitygw/wiki) on the wiki.
+See project [documentation](https://github.com/gmgigi96/versitygw/wiki) on the wiki.
 
 ### Need help?
-Ask questions in the [community discussions](https://github.com/versity/versitygw/discussions).
+Ask questions in the [community discussions](https://github.com/gmgigi96/versitygw/discussions).
 <br>
 Contact [Versity Sales](https://www.versity.com/contact/) to discuss enterprise support.
 
@@ -47,7 +47,7 @@ The gateway is completely stateless. Multiple Versity Gateway instances may be d
 The S3 HTTP(S) server and routing is implemented using the [Fiber](https://gofiber.io) web framework.  This framework is actively developed with a focus on performance.  S3 API compatibility leverages the official [aws-sdk-go-v2](https://github.com/aws/aws-sdk-go-v2) whenever possible for maximum service compatibility with AWS S3. 
 
 ## Getting Started
-See the [Quickstart](https://github.com/versity/versitygw/wiki/Quickstart) documentation.
+See the [Quickstart](https://github.com/gmgigi96/versitygw/wiki/Quickstart) documentation.
 
 ### Run the gateway with posix backend:
 
@@ -68,7 +68,7 @@ The command format is
 ```
 versitygw [global options] command [command options] [arguments...]
 ```
-The [global options](https://github.com/versity/versitygw/wiki/Global-Options) are specified before the backend type and the backend options are specified after.
+The [global options](https://github.com/gmgigi96/versitygw/wiki/Global-Options) are specified before the backend type and the backend options are specified after.
 
 ***
 
@@ -80,8 +80,8 @@ info@versity.com <br />
 +1 844 726 8826
 
 ### @versitysoftware 
-[![linkedin](https://github.com/versity/versitygw/blob/assets/assets/linkedin.jpg)](https://www.linkedin.com/company/versity/) &nbsp; 
-[![twitter](https://github.com/versity/versitygw/blob/assets/assets/twitter.jpg)](https://twitter.com/VersitySoftware) &nbsp;
-[![facebook](https://github.com/versity/versitygw/blob/assets/assets/facebook.jpg)](https://www.facebook.com/versitysoftware) &nbsp;
-[![instagram](https://github.com/versity/versitygw/blob/assets/assets/instagram.jpg)](https://www.instagram.com/versitysoftware/) &nbsp;
+[![linkedin](https://github.com/gmgigi96/versitygw/blob/assets/assets/linkedin.jpg)](https://www.linkedin.com/company/versity/) &nbsp; 
+[![twitter](https://github.com/gmgigi96/versitygw/blob/assets/assets/twitter.jpg)](https://twitter.com/VersitySoftware) &nbsp;
+[![facebook](https://github.com/gmgigi96/versitygw/blob/assets/assets/facebook.jpg)](https://www.facebook.com/versitysoftware) &nbsp;
+[![instagram](https://github.com/gmgigi96/versitygw/blob/assets/assets/instagram.jpg)](https://www.instagram.com/versitysoftware/) &nbsp;
 

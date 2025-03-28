@@ -22,7 +22,7 @@ import (
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/gofiber/fiber/v2"
 	"github.com/valyala/fasthttp/fasthttputil"
-	v4 "github.com/versity/versitygw/aws/signer/v4"
+	v4 "github.com/gmgigi96/versitygw/aws/signer/v4"
 )
 
 func TestAuthParse(t *testing.T) {

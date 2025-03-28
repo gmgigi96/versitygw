@@ -203,7 +203,7 @@ test_file="test_file"
 
 @test "REST - get object attributes" {
   if [ "$DIRECT" != "true" ]; then
-    skip "https://github.com/versity/versitygw/issues/1000"
+    skip "https://github.com/gmgigi96/versitygw/issues/1000"
   fi
   run setup_bucket_and_large_file "$BUCKET_ONE_NAME" "$test_file"
   assert_success
@@ -220,7 +220,7 @@ test_file="test_file"
 
 @test "REST - attributes - invalid param" {
   if [ "$DIRECT" != "true" ]; then
-    skip "https://github.com/versity/versitygw/issues/1001"
+    skip "https://github.com/gmgigi96/versitygw/issues/1001"
   fi
   run setup_bucket_and_file "$BUCKET_ONE_NAME" "$test_file"
   assert_success
@@ -234,7 +234,7 @@ test_file="test_file"
 
 @test "REST - attributes - checksum" {
   if [ "$DIRECT" != "true" ]; then
-    skip "https://github.com/versity/versitygw/issues/1006"
+    skip "https://github.com/gmgigi96/versitygw/issues/1006"
   fi
   run setup_bucket_and_file "$BUCKET_ONE_NAME" "$test_file"
   assert_success
@@ -278,7 +278,7 @@ test_file="test_file"
 
 @test "REST - get policy w/o policy" {
   if [ "$DIRECT" != "true" ]; then
-    skip "https://github.com/versity/versitygw/issues/959"
+    skip "https://github.com/gmgigi96/versitygw/issues/959"
   fi
 
   run setup_bucket "s3api" "$BUCKET_ONE_NAME"
@@ -308,7 +308,7 @@ test_file="test_file"
 
 @test "REST - list objects v2 - invalid continuation token" {
   if [ "$DIRECT" != "true" ]; then
-    skip "https://github.com/versity/versitygw/issues/993"
+    skip "https://github.com/gmgigi96/versitygw/issues/993"
   fi
   test_file_two="test_file_2"
   test_file_three="test_file_3"
@@ -335,7 +335,7 @@ test_file="test_file"
 
 @test "REST - list objects v1 - no NextMarker without delimiter" {
   if [ "$DIRECT" != "true" ]; then
-    skip "https://github.com/versity/versitygw/issues/999"
+    skip "https://github.com/gmgigi96/versitygw/issues/999"
   fi
   test_file_two="test_file_2"
   run setup_bucket "s3api" "$BUCKET_ONE_NAME" "$test_file" "$test_file_two"
@@ -353,7 +353,7 @@ test_file="test_file"
 
 @test "REST - complete upload - invalid part" {
   if [ "$DIRECT" != "true" ]; then
-    skip "https://github.com/versity/versitygw/issues/1008"
+    skip "https://github.com/gmgigi96/versitygw/issues/1008"
   fi
   run setup_bucket_and_large_file "$BUCKET_ONE_NAME" "$test_file"
   assert_success
@@ -375,7 +375,7 @@ test_file="test_file"
 
 @test "REST - head object" {
   if [ "$DIRECT" != "true" ]; then
-    skip "https://github.com/versity/versitygw/issues/1114"
+    skip "https://github.com/gmgigi96/versitygw/issues/1114"
   fi
   run setup_bucket_and_file "$BUCKET_ONE_NAME" "$test_file"
   assert_success
@@ -393,7 +393,7 @@ test_file="test_file"
 
 @test "REST - POST call on root endpoint" {
   if [ "$DIRECT" != "true" ]; then
-    skip "https://github.com/versity/versitygw/issues/1036"
+    skip "https://github.com/gmgigi96/versitygw/issues/1036"
   fi
   run delete_object_empty_bucket_check_error
   assert_success
@@ -401,7 +401,7 @@ test_file="test_file"
 
 @test "REST - delete objects - no content-md5 header" {
   if [ "$DIRECT" != "true" ]; then
-    skip "https://github.com/versity/versitygw/issues/1040"
+    skip "https://github.com/gmgigi96/versitygw/issues/1040"
   fi
   run setup_bucket "s3api" "$BUCKET_ONE_NAME"
   assert_success
@@ -439,7 +439,7 @@ test_file="test_file"
 
 @test "REST - put object w/STREAMING-AWS4-HMAC-SHA256-PAYLOAD without content length" {
   if [ "$DIRECT" != "true" ]; then
-    skip "https://github.com/versity/versitygw/issues/1043"
+    skip "https://github.com/gmgigi96/versitygw/issues/1043"
   fi
   run setup_bucket_and_file "$BUCKET_ONE_NAME" "$test_file"
   assert_success

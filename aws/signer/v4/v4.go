@@ -63,7 +63,7 @@ import (
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/aws/smithy-go/encoding/httpbinding"
 	"github.com/aws/smithy-go/logging"
-	v4Internal "github.com/versity/versitygw/aws/signer/internal/v4"
+	v4Internal "github.com/gmgigi96/versitygw/aws/signer/internal/v4"
 )
 
 const (

@@ -18,7 +18,7 @@ import (
 	"fmt"
 
 	"github.com/urfave/cli/v2"
-	"github.com/versity/versitygw/backend/s3proxy"
+	"github.com/gmgigi96/versitygw/backend/s3proxy"
 )
 
 var (

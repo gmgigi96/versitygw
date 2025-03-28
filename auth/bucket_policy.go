@@ -19,7 +19,7 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/versity/versitygw/s3err"
+	"github.com/gmgigi96/versitygw/s3err"
 )
 
 type policyErr string

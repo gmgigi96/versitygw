@@ -72,7 +72,7 @@ nfpms:
   - id: packages
     package_name: versitygw
     vendor: Versity Software
-    homepage: https://github.com/versity/versitygw
+    homepage: https://github.com/gmgigi96/versitygw
     maintainer: Ben McClelland <ben.mcclelland@versity.com>
 
     description: |-

@@ -4,7 +4,7 @@ ARG DEBIAN_FRONTEND=noninteractive
 ARG SECRETS_FILE=tests/.secrets
 ARG CONFIG_FILE=tests/.env.docker
 ARG GO_LIBRARY=go1.21.13.linux-arm64.tar.gz
-# see https://github.com/versity/versitygw/issues/1034
+# see https://github.com/gmgigi96/versitygw/issues/1034
 ARG AWS_CLI=awscli-exe-linux-aarch64-2.22.35.zip
 ARG MC_FOLDER=linux-arm64
 

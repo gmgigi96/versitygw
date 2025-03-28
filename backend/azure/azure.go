@@ -43,10 +43,10 @@ import (
 	"github.com/aws/aws-sdk-go-v2/service/s3"
 	"github.com/aws/aws-sdk-go-v2/service/s3/types"
 	"github.com/google/uuid"
-	"github.com/versity/versitygw/auth"
-	"github.com/versity/versitygw/backend"
-	"github.com/versity/versitygw/s3err"
-	"github.com/versity/versitygw/s3response"
+	"github.com/gmgigi96/versitygw/auth"
+	"github.com/gmgigi96/versitygw/backend"
+	"github.com/gmgigi96/versitygw/s3err"
+	"github.com/gmgigi96/versitygw/s3response"
 )
 
 // When getting container metadata with GetProperties method the sdk returns

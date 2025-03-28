@@ -27,10 +27,10 @@ import (
 	"golang.org/x/sys/unix"
 
 	"github.com/versity/scoutfs-go"
-	"github.com/versity/versitygw/auth"
-	"github.com/versity/versitygw/backend"
-	"github.com/versity/versitygw/backend/meta"
-	"github.com/versity/versitygw/backend/posix"
+	"github.com/gmgigi96/versitygw/auth"
+	"github.com/gmgigi96/versitygw/backend"
+	"github.com/gmgigi96/versitygw/backend/meta"
+	"github.com/gmgigi96/versitygw/backend/posix"
 )
 
 func New(rootdir string, opts ScoutfsOpts) (*ScoutFS, error) {

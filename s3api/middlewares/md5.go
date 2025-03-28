@@ -19,10 +19,10 @@ import (
 	"io"
 
 	"github.com/gofiber/fiber/v2"
-	"github.com/versity/versitygw/s3api/controllers"
-	"github.com/versity/versitygw/s3api/utils"
-	"github.com/versity/versitygw/s3err"
-	"github.com/versity/versitygw/s3log"
+	"github.com/gmgigi96/versitygw/s3api/controllers"
+	"github.com/gmgigi96/versitygw/s3api/utils"
+	"github.com/gmgigi96/versitygw/s3err"
+	"github.com/gmgigi96/versitygw/s3log"
 )
 
 func VerifyMD5Body(logger s3log.AuditLogger) fiber.Handler {

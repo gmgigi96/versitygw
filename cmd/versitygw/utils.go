@@ -21,7 +21,7 @@ import (
 	"path/filepath"
 
 	"github.com/urfave/cli/v2"
-	"github.com/versity/versitygw/s3event"
+	"github.com/gmgigi96/versitygw/s3event"
 )
 
 func utilsCommand() *cli.Command {

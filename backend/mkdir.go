@@ -12,7 +12,7 @@ import (
 	"io/fs"
 	"os"
 
-	"github.com/versity/versitygw/s3err"
+	"github.com/gmgigi96/versitygw/s3err"
 )
 
 // MkdirAll is similar to os.MkdirAll but it will return

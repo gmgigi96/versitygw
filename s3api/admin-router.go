@@ -16,10 +16,10 @@ package s3api
 
 import (
 	"github.com/gofiber/fiber/v2"
-	"github.com/versity/versitygw/auth"
-	"github.com/versity/versitygw/backend"
-	"github.com/versity/versitygw/s3api/controllers"
-	"github.com/versity/versitygw/s3log"
+	"github.com/gmgigi96/versitygw/auth"
+	"github.com/gmgigi96/versitygw/backend"
+	"github.com/gmgigi96/versitygw/s3api/controllers"
+	"github.com/gmgigi96/versitygw/s3log"
 )
 
 type S3AdminRouter struct{}

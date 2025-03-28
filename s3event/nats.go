@@ -23,7 +23,7 @@ import (
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/nats-io/nats.go"
-	"github.com/versity/versitygw/s3response"
+	"github.com/gmgigi96/versitygw/s3response"
 )
 
 type NatsEventSender struct {

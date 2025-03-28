@@ -25,7 +25,7 @@ test_file="test_file"
 
 @test "REST - invalid checksum type" {
   if [ "$DIRECT" != "true" ]; then
-    skip "https://github.com/versity/versitygw/issues/1104"
+    skip "https://github.com/gmgigi96/versitygw/issues/1104"
   fi
   run setup_bucket_and_file "$BUCKET_ONE_NAME" "$test_file"
   assert_success

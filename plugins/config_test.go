@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/versity/versitygw/plugins"
+	"github.com/gmgigi96/versitygw/plugins"
 )
 
 type TestConfig struct {

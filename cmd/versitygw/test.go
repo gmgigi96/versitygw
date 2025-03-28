@@ -18,7 +18,7 @@ import (
 	"fmt"
 
 	"github.com/urfave/cli/v2"
-	"github.com/versity/versitygw/tests/integration"
+	"github.com/gmgigi96/versitygw/tests/integration"
 )
 
 var (

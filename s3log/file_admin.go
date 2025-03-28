@@ -21,7 +21,7 @@ import (
 	"time"
 
 	"github.com/gofiber/fiber/v2"
-	"github.com/versity/versitygw/auth"
+	"github.com/gmgigi96/versitygw/auth"
 )
 
 // FileLogger is a local file audit log

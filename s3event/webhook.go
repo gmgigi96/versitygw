@@ -26,7 +26,7 @@ import (
 	"time"
 
 	"github.com/gofiber/fiber/v2"
-	"github.com/versity/versitygw/s3response"
+	"github.com/gmgigi96/versitygw/s3response"
 )
 
 type Webhook struct {

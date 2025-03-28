@@ -21,7 +21,7 @@ import (
 	"time"
 
 	"github.com/gofiber/fiber/v2"
-	"github.com/versity/versitygw/auth"
+	"github.com/gmgigi96/versitygw/auth"
 )
 
 type S3EventSender interface {

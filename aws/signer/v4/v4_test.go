@@ -15,7 +15,7 @@ import (
 
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/google/go-cmp/cmp"
-	v4Internal "github.com/versity/versitygw/aws/signer/internal/v4"
+	v4Internal "github.com/gmgigi96/versitygw/aws/signer/internal/v4"
 )
 
 var testCredentials = aws.Credentials{AccessKeyID: "AKID", SecretAccessKey: "SECRET", SessionToken: "SESSION"}

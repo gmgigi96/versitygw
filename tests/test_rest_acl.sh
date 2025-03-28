@@ -103,7 +103,7 @@ export RUN_USERS=true
 
 @test "REST - put invalid ACL" {
   if [ "$DIRECT" != "true" ]; then
-    skip "https://github.com/versity/versitygw/issues/986"
+    skip "https://github.com/gmgigi96/versitygw/issues/986"
   fi
   run setup_bucket "s3api" "$BUCKET_ONE_NAME"
   assert_success

@@ -8,8 +8,8 @@ import (
 	"time"
 
 	v4 "github.com/aws/aws-sdk-go-v2/aws/signer/v4"
-	"github.com/versity/versitygw/aws/internal/awstesting/unit"
-	v4Internal "github.com/versity/versitygw/aws/signer/internal/v4"
+	"github.com/gmgigi96/versitygw/aws/internal/awstesting/unit"
+	v4Internal "github.com/gmgigi96/versitygw/aws/signer/internal/v4"
 )
 
 var standaloneSignCases = []struct {

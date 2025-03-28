@@ -18,7 +18,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/versity/versitygw/s3err"
+	"github.com/gmgigi96/versitygw/s3err"
 )
 
 func Test_validateExpiration(t *testing.T) {

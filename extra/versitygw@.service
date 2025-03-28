@@ -1,6 +1,6 @@
 [Unit]
 Description=VersityGW
-Documentation=https://github.com/versity/versitygw/wiki
+Documentation=https://github.com/gmgigi96/versitygw/wiki
 Wants=network-online.target
 After=network-online.target remote-fs.target
 AssertFileIsExecutable=/usr/bin/versitygw

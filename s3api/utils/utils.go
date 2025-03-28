@@ -31,8 +31,8 @@ import (
 	"github.com/aws/smithy-go/encoding/httpbinding"
 	"github.com/gofiber/fiber/v2"
 	"github.com/valyala/fasthttp"
-	"github.com/versity/versitygw/s3err"
-	"github.com/versity/versitygw/s3response"
+	"github.com/gmgigi96/versitygw/s3err"
+	"github.com/gmgigi96/versitygw/s3response"
 )
 
 var (

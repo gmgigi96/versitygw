@@ -20,7 +20,7 @@ import (
 	"math"
 
 	"github.com/urfave/cli/v2"
-	"github.com/versity/versitygw/backend/scoutfs"
+	"github.com/gmgigi96/versitygw/backend/scoutfs"
 )
 
 var (
