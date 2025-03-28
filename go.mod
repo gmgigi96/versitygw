@@ -2,8 +2,6 @@ module github.com/versity/versitygw
 
 go 1.23.0
 
-toolchain go1.24.1
-
 require (
 	github.com/Azure/azure-sdk-for-go/sdk/azcore v1.18.0
 	github.com/Azure/azure-sdk-for-go/sdk/azidentity v1.8.2
@@ -27,6 +25,7 @@ require (
 	github.com/versity/scoutfs-go v0.0.0-20240325223134-38eb2f5f7d44
 	golang.org/x/sync v0.13.0
 	golang.org/x/sys v0.32.0
+	sigs.k8s.io/yaml v1.4.0
 )
 
 require (
